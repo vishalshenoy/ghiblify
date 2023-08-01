@@ -1,0 +1,21 @@
+environment_variables: {}
+external_package_dirs: []
+model_metadata: {}
+model_name: null
+python_version: py39
+requirements:
+  - torch
+  - diffusers
+  - transformers
+  - scipy
+  - accelerate
+  - pillow
+hf_cache:
+  - repo_id: nitrosocke/Ghibli-Diffusion
+resources:
+  cpu: "3"
+  memory: 14Gi
+  use_gpu: true
+  accelerator: A10G
+secrets: {}
+system_packages: []
