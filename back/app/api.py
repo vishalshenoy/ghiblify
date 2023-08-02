@@ -11,7 +11,7 @@ import baseten
 import numpy as np
 
 BASE64_PREAMBLE = "data:image/png;base64,"
-model = baseten.deployed_model_id('placeholder') #add baseten model id for Img2Img pipeline with nitrosocke/Ghibli-Diffusion model
+model = baseten.deployed_model_id('placeholder') #add model id for Img2Img pipeline with nitrosocke/Ghibli-Diffusion model
 
 app = FastAPI()
 
