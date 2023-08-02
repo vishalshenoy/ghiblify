@@ -25,7 +25,7 @@ const customTheme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: "#ffffff", // Set the background color here
+        bg: "#ffffff",
       },
     },
   },
@@ -35,7 +35,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [selectedImageURL, setSelectedImageURL] = useState("");
   const [generatedImageURL, setGeneratedImageURL] = useState("");
-  const [uploadedFileName, setUploadedFileName] = useState(""); // New state variable for filename
+  const [uploadedFileName, setUploadedFileName] = useState(""); 
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
@@ -58,7 +58,7 @@ const App = () => {
       })
         .then((response) => response.json())
         .then((data) => {
-          console.log(data); // Log the response from the backend
+          console.log(data);
         })
         .catch((error) => {
           console.error("Error:", error);
@@ -68,7 +68,6 @@ const App = () => {
 
   const generate = () => {
     setLoading(true);
-    // Send a request to fetch the photo from the backend
     let path = "http://0.0.0.0:8000/get_photo/" + uploadedFileName;
     fetch(path)
       .then((response) => {
@@ -113,7 +112,7 @@ const App = () => {
               type="file"
               id="fileInput"
               onChange={handleImageChange}
-              style={{ display: "none" }} // Hide the default file input style
+              style={{ display: "none" }}
             />
             <Button
               mx="5px"
