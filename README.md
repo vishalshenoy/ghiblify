@@ -1,7 +1,8 @@
-# Ghiblify
+# ghiblify
 
 Full-stack application to converts photos into Studio Ghibli style artwork using Stable Diffusion
 
+<h6> Examples </h6>
 <table>
   <tr>
     <td>
