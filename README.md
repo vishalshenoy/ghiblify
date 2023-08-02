@@ -14,7 +14,7 @@ Full-stack application to converts photos into Studio Ghibli style artwork using
   <tr>
     <td>
       <img src="images/jerry.png" alt="Photo 3" width="300" height="200">
-    </td>
+    </td> 
     <td>
       <img src="images/skyline.png" alt="Photo 4" width="300" height="200">
     </td>
