@@ -1,6 +1,6 @@
-# ghiblify
+# Ghiblify
 
-Full-stack application to converts photos into Studio Ghibli style artwork using Stable Diffusion
+A full-stack application to converts photos into Studio Ghibli style artwork using Stable Diffusion. The frontend is built using ReactJS and ChakraUI. The backend relies on a fine-tuned Stable Diffusion, made avaialble by Stability AI. This project utilized an Image to Image piepline with text prompt guidance.
 
 <h6> Examples </h6>
 <table>
