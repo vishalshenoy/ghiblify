@@ -4,7 +4,7 @@ A full-stack application to converts photos into Studio Ghibli style artwork usi
 
 A delopyed version of the frontend without a connection to the Stable Diffusion component is availble <a href="https://ghiblidiffusion.vercel.app">here</a> 
 
-Built by Vishal Shenoy
+Built by <a href="https://vishalshenoy.com">Vishal Shenoy</a> 
 
 <br>
 <h4> Examples (Before → After) </h4>
